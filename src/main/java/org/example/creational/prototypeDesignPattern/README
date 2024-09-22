@@ -1,0 +1,11 @@
+We use prototype method if we want to obtain clone of an object of a class where object creation is
+very expensive.
+
+So we create an interface Prototype/Cloneable and all the classes that we want to provide implementation to
+create clones of, have to override prototype interface.
+
+Now the question is why cant client class create object by themselves? Why cant client call
+MyStudent myStudent = new MyStudent(1, "Kanika", 28)?
+
+It might be that MyStudent class provided by library has private fields or private constructors to restrict the visibility.
+So library can expose only clone method and client app can call clone method.

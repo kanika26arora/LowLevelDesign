@@ -1,0 +1,4 @@
+In Sephora app, people have a notifyMe functionality to be notified when an its is back in stock or items
+from wishlist are out of stock.
+Implement this functionality where users are notified by text and email if items are out of stock and
+notified by text if they are out of stock.
