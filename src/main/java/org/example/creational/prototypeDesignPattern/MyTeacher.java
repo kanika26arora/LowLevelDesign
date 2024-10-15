@@ -2,9 +2,9 @@ package org.example.creational.prototypeDesignPattern;
 
 public class MyTeacher implements MyCloneable{
 
-    int id;
-    String name;
-    int age;
+    private int id;
+    private String name;
+    private int age;
 
     MyTeacher(int id, String name, int age){
         this.id = id;

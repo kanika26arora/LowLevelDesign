@@ -2,11 +2,11 @@ package org.example.creational.prototypeDesignPattern;
 
 public class MyStudent implements MyCloneable{
 
-    int rollNumber;
-    String name;
-    int age;
+    private int rollNumber;
+    private String name;
+    private int age;
 
-    MyStudent(int rollNumber, String name, int age){
+     MyStudent(int rollNumber, String name, int age){
         this.rollNumber = rollNumber;
         this.name = name;
         this.age = age;
