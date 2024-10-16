@@ -1,4 +1,4 @@
-package org.example.structural.compositeDesignPattern;
+package org.example.structural.compositeDesignPattern.filesystem;
 
 public class Main {
 

@@ -6,6 +6,7 @@ public class EmployeeDao {
 
         System.out.println("establishing connection..");
         System.out.println("creating query finding by  column " + column );
+        System.out.println("execute the query"  + value);
         System.out.println("closing connection..");
 
     }
