@@ -1,1 +1,5 @@
-it is used to hide complexity of the system from the client
+it is used to hide complexity of a larger system from the client.
+
+For example, if a client wants to execute a query.. it has to first call service to create connection, service to
+create query and then to execute query which are all different components. Rather we can make a facade that talks with all these
+services so client doesnt have to deal with each component separately.
